@@ -1,48 +1,56 @@
 {
   "Clothing & Shoes": [
     {
+      "id": "ce62264c-e266-446b-a7dd-8073531f9a2d",
       "name": "Adicolor Classics Joggers",
       "type": "Dress",
       "price": 63.85,
       "image": 15
     },
     {
+      "id": "9a380683-4b3f-4b31-98f6-e8f0df9e6bba",
       "name": "Nike Sportswear Futura Luxe",
       "type": "Bag",
       "price": 130,
       "image": 14
     },
     {
+      "id": "2e1322a3-6cf2-4d3b-b543-b20a47c54d4a",
       "name": "Geometric Print Scarf",
       "type": "Scarf",
       "price": 53,
       "image": 13
     },
     {
+      "id": "208fb9bb-cf92-47c7-a21e-66f98daa57eb",
       "name": "Yellow Reserved Hoodie",
       "type": "Dress",
       "price": 155,
       "image": 4
     },
     {
+      "id": "0cf15426-05b7-4ce2-8de0-dac4fbc743f3",
       "name": "Basic Dress Green",
       "type": "Dress",
       "price": 236,
       "image": 11
     },
     {
+      "id": "e4980513-a3ea-46a5-b30e-849895108734",
       "name": "Nike Air Zoom Pegasus",
       "type": "Shoe",
       "price": 198,
       "image": 12
     },
     {
+      "id": "cfa44771-c2f8-433e-a54a-fed39586e17a",
       "name": "Nike Repel Miler",
       "type": "Dress",
       "price": 120.5,
       "image": 17
     },
     {
+      "id": "23a881ba-e3de-4371-b644-ef2f4a1e2bb0",
       "name": "Nike Sportswear Futura Glasses",
       "type": "Glasses",
       "price": 160,

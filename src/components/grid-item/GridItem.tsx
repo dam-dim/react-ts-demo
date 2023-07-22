@@ -1,6 +1,8 @@
+import { useAppContext } from "../../context/AppContext";
 import "./GridItem.css";
 
 type GridItemType = {
+  id: string;
   name: string;
   type: string;
   price: number;
@@ -8,13 +10,20 @@ type GridItemType = {
 };
 
 export function GridItem(props: GridItemType) {
+  const { increaseCartQuantity } = useAppContext();
+
   return (
     <div className="grid-item">
       <img src={`images//${props.image}.png`} alt="" />
       <h4>{props.name}</h4>
       <p>{props.type}</p>
       <p>${props.price.toFixed(2)}</p>
-      <p className="pointer add-btn">Add</p>
+      <p
+        className="pointer add-btn"
+        onClick={() => increaseCartQuantity(props.id)}
+      >
+        Add
+      </p>
     </div>
   );
 }

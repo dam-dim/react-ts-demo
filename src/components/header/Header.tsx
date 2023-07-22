@@ -24,7 +24,6 @@ export function Header() {
           <p>Profile</p>
         </div>
 
-        {/* TODO: Implement onClick event for shopping cart*/}
         <div className="shopping pointer center-between" onClick={openCart}>
           <img src="icon\cart.svg" alt="" />
           <p>Shopping</p>

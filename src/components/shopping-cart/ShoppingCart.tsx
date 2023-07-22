@@ -1,4 +1,5 @@
 import { useAppContext } from "../../context/AppContext";
+import { getCartItems } from "../../utils/GetCartItems";
 import "./ShoppingCart.css";
 
 type ShoppingCartProps = {
@@ -6,7 +7,7 @@ type ShoppingCartProps = {
 };
 
 export function ShoppingCart({ isVisible }: ShoppingCartProps) {
-  const { closeCart } = useAppContext();
+  const { closeCart, cartItems } = useAppContext();
 
   return isVisible ? (
     <div className="shopping-cart">
@@ -14,6 +15,8 @@ export function ShoppingCart({ isVisible }: ShoppingCartProps) {
       <p className="pointer" onClick={closeCart}>
         Close
       </p>
+
+      <ul>{getCartItems(cartItems)}</ul>
     </div>
   ) : null;
 }

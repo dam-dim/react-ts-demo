@@ -3,8 +3,11 @@ import "./GridItems.css";
 
 type GridItemsProps = {
   category: string;
+  currentType: string;
 };
 
-export default function GridItems(props: GridItemsProps) {
-  return <div className="grid-items">{getGridItems(props.category)}</div>;
+export default function GridItems({ category, currentType }: GridItemsProps) {
+  return (
+    <div className="grid-items">{getGridItems(category, currentType)}</div>
+  );
 }
