@@ -18,7 +18,9 @@ export function getCategoryMenu(
       className="li-menu-black pointer"
       onClick={handleClick}
     >
-      All Products
+      <a href="" className="links">
+        All Products
+      </a>
     </li>
   );
 
@@ -32,7 +34,9 @@ export function getCategoryMenu(
         className="li-menu-black pointer"
         onClick={handleClick}
       >
-        {element}
+        <a href="" className="links">
+          {element}
+        </a>
       </li>
     );
   });

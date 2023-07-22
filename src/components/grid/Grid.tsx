@@ -23,7 +23,7 @@ export function Grid({ category }: GridProps) {
 
   return (
     <div className="grid width-centered">
-      <h1>{category}</h1>
+      <h2>{category}</h2>
       <GridMenu
         category={category}
         currentType={currentType}

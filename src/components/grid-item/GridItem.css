@@ -10,12 +10,29 @@
 
 .add-btn {
   border: 1px solid black;
-  width: 150px;
+  padding: 10px;
   text-align: center;
-  margin: 0 auto;
+  background-color: white;
 }
 
 .add-btn:hover {
   background-color: black;
   color: white;
+}
+
+.name {
+  margin: 10px 0;
+}
+
+.type-price {
+  margin: 10px 0;
+}
+
+.type-price p,
+.type-price h4 {
+  padding: 10px 0;
+}
+
+.type-price p {
+  font-weight: lighter;
 }

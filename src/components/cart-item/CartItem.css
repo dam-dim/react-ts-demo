@@ -1,7 +1,28 @@
 .cart-item {
   margin: 15px;
+  text-align: left;
 }
 
 .cart-item img {
-  height: 10rem;
+  height: 200px;
+}
+
+.name-price-inner {
+  height: 60%;
+}
+
+.name-price-inner .p {
+  font-weight: lighter;
+}
+
+.delete {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #d9d9d9;
+  font-size: medium;
+}
+
+.delete:hover {
+  background-color: red;
+  color: white;
 }

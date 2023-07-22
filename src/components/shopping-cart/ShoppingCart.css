@@ -2,9 +2,8 @@
   position: fixed;
   top: 0;
   right: 0;
-  width: 35rem;
+  width: 600px;
   height: 100%;
-  background-color: blueviolet;
   margin: 0 auto;
   overflow: scroll;
   border: 1px solid black;
@@ -12,6 +11,34 @@
   background-color: #d9d9d9;
 }
 
-.shopping-cart .cart-header {
-  padding: 10px;
+.shopping-cart hr {
+  width: 80%;
+  margin: auto;
+}
+
+.cart-header {
+  padding: 20px 0;
+}
+
+.cart-header h1 {
+  font-weight: normal;
+}
+
+.cart-header .close {
+  padding: 5px;
+  background-color: #d9d9d9;
+  font-size: large;
+}
+
+.close:hover {
+  background-color: red;
+  color: white;
+}
+
+.total {
+  padding: 20px;
+}
+
+.total h2 {
+  font-weight: normal;
 }

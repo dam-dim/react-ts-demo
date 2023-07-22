@@ -5,13 +5,13 @@ export default function Footer() {
     <div className="footer center-between">
       <div className="width-centered center-between">
         <div>
-          <p>2023 CORAL , Inc.</p>
+          <p>&copy;2023 CORAL , Inc.</p>
         </div>
 
-        <div className="center-between pointer">
+        <a href="#" className="center-between">
           <p>Scroll To Top</p>
           <img src="icon\arrow.svg" alt="" />
-        </div>
+        </a>
       </div>
     </div>
   );

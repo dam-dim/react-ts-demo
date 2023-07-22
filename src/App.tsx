@@ -18,7 +18,11 @@ export function App() {
   return (
     <AppProvider>
       <Header />
-      <hr />
+
+      <div className="line">
+        <hr className="width-centered" />
+      </div>
+
       <NavBar />
 
       <div className="body">
