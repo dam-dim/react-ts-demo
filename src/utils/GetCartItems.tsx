@@ -21,6 +21,7 @@ export function getCartItems(cartItems: CartItem[]) {
           name={item.name}
           quantity={quantity}
           image={item.image}
+          price={item.price}
         />
       </li>
     );

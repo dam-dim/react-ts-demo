@@ -18,18 +18,26 @@ export function App() {
   return (
     <AppProvider>
       <Header />
+      <hr />
       <NavBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/jewelry-accessories" element={<JewelryAccessories />} />
-        <Route path="/clothing-shoes" element={<ClothingShoes />} />
-        <Route path="/home-living" element={<HomeLiving />} />
-        <Route path="/wedding-party" element={<WeddingParty />} />
-        <Route path="/art-collectibles" element={<ArtCollectibles />} />
-        <Route path="/toys-entertainment" element={<ToysEntertainment />} />
-        <Route path="/craft-supplies-tools" element={<CraftSuppliesTools />} />
-        <Route path="/profile" element={<Profile />} />
-      </Routes>
+
+      <div className="body">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/jewelry-accessories" element={<JewelryAccessories />} />
+          <Route path="/clothing-shoes" element={<ClothingShoes />} />
+          <Route path="/home-living" element={<HomeLiving />} />
+          <Route path="/wedding-party" element={<WeddingParty />} />
+          <Route path="/art-collectibles" element={<ArtCollectibles />} />
+          <Route path="/toys-entertainment" element={<ToysEntertainment />} />
+          <Route
+            path="/craft-supplies-tools"
+            element={<CraftSuppliesTools />}
+          />
+          <Route path="/profile" element={<Profile />} />
+        </Routes>
+      </div>
+
       <Footer />
     </AppProvider>
   );

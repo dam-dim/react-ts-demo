@@ -1,15 +1,18 @@
 .grid-item {
-  display: inline;
-  float: left;
+  text-align: left;
+  display: inline-block;
+  margin: 15px 13px;
 }
 
 .grid-item img {
-  max-width: 100%;
-  height: 310px;
+  height: 350px;
 }
 
 .add-btn {
   border: 1px solid black;
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .add-btn:hover {

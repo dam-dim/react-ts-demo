@@ -15,7 +15,9 @@ export function GridMenu({
 }: GridMenuProps) {
   return (
     <div className="grid-menu">
-      {getCategoryMenu(category, currentType, handleClick)}
+      <div className="inner">
+        {getCategoryMenu(category, currentType, handleClick)}
+      </div>
     </div>
   );
 }

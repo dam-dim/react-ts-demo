@@ -7,7 +7,15 @@ export function getGridItems(category: string, currentType: string) {
 
   const currentCategory = data[category as keyof typeof data];
 
+  //let temp: ReactNode[] = [];
+  //let counter = 0;
+
   currentCategory.forEach((element) => {
+    // if (counter % 4 === 3) {
+    //
+    //   output.push(<div className="items-row center-between">{temp}</div>);
+    //   temp = [];
+    // }
     if (element.type === currentType || currentType === "All Products") {
       output.push(
         <GridItem
@@ -20,6 +28,7 @@ export function getGridItems(category: string, currentType: string) {
         />
       );
     }
+    // counter++;
   });
 
   return output;

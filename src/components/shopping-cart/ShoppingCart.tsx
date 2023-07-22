@@ -11,10 +11,12 @@ export function ShoppingCart({ isVisible }: ShoppingCartProps) {
 
   return isVisible ? (
     <div className="shopping-cart">
-      <h2>Shopping Cart</h2>
-      <p className="pointer" onClick={closeCart}>
-        Close
-      </p>
+      <div className="center-between cart-header">
+        <h2>Shopping Cart</h2>
+        <p className="pointer" onClick={closeCart}>
+          Close
+        </p>
+      </div>
 
       <ul>{getCartItems(cartItems)}</ul>
     </div>

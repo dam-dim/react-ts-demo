@@ -1,5 +1,13 @@
 .header {
   background-color: #d9d9d9;
+  padding: 10px 0;
+}
+
+.header h1 {
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  margin: 0 10px;
 }
 
 .header a {
@@ -7,28 +15,32 @@
   color: black;
 }
 
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 20%;
+}
+
 .profile {
   margin: 0 20px 0 0;
 }
 
-.shopping {
-  position: relative;
+.profile p,
+.shopping p {
+  padding: 12px 0;
 }
 
-.shopping .quantity {
-  position: absolute;
+.quantity {
   background-color: white;
-  color: black;
-  left: 0;
-  bottom: 0;
+  margin: auto;
   border: 1px solid black;
   border-radius: 50%;
-  width: 1.1rem;
-  height: 1.1rem;
-  text-align: center;
-  transform: translate(-15%, 15%);
+  margin: auto 0 auto 5px;
 }
 
-.shopping .quantity p {
-  padding: 0.01rem 0;
+.quantity p {
+  padding: 5px 10px;
 }

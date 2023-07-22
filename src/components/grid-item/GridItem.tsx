@@ -16,8 +16,10 @@ export function GridItem(props: GridItemType) {
     <div className="grid-item">
       <img src={`images//${props.image}.png`} alt="" />
       <h4>{props.name}</h4>
-      <p>{props.type}</p>
-      <p>${props.price.toFixed(2)}</p>
+      <div className="center-between">
+        <p>{props.type}</p>
+        <p>${props.price.toFixed(2)}</p>
+      </div>
       <p
         className="pointer add-btn"
         onClick={() => increaseCartQuantity(props.id)}
