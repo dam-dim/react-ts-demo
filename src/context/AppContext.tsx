@@ -82,12 +82,10 @@ export function AppProvider({ children }: AppProviderProps) {
 
   function openCart() {
     setIsVisible(true);
-    alert("Opening");
   }
 
   function closeCart() {
     setIsVisible(false);
-    alert("Closing");
   }
 
   return (
@@ -104,7 +102,7 @@ export function AppProvider({ children }: AppProviderProps) {
       }}
     >
       {children}
-      <ShoppingCart />
+      <ShoppingCart isVisible={isVisible} />
     </AppContext.Provider>
   );
 }
