@@ -1,5 +1,6 @@
 import { createContext, useContext, ReactNode, useState } from "react";
 import { ShoppingCart } from "../components/shopping-cart/ShoppingCart";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 
 type AppProviderProps = {
   children: ReactNode;
@@ -28,7 +29,10 @@ export function useAppContext() {
 }
 
 export function AppProvider({ children }: AppProviderProps) {
-  const [cartItems, setCartItems] = useState<CartItem[]>([]);
+  const [cartItems, setCartItems] = useLocalStorage<CartItem[]>(
+    "shopping-cart",
+    []
+  );
   const [isVisible, setIsVisible] = useState(false);
 
   const cartQuantity = cartItems.reduce(
