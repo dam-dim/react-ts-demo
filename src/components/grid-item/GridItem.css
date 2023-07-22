@@ -2,17 +2,30 @@
   text-align: left;
   display: inline-block;
   margin: 15px 13px;
+  position: relative;
 }
 
 .grid-item img {
   height: 350px;
 }
 
+.grid-item img:hover {
+  opacity: 0.5;
+}
+
 .add-btn {
-  border: 1px solid black;
-  padding: 10px;
+  border: 0 solid black;
   text-align: center;
   background-color: white;
+  opacity: 0.7;
+  position: absolute;
+  margin: auto;
+  top: 205px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  height: 50px;
 }
 
 .add-btn:hover {
@@ -35,4 +48,8 @@
 
 .type-price p {
   font-weight: lighter;
+}
+
+.type-price h4 {
+  font-weight: normal;
 }

@@ -5,6 +5,7 @@
 
 .cart-item img {
   height: 200px;
+  border: 1px solid black;
 }
 
 .name-price-inner {

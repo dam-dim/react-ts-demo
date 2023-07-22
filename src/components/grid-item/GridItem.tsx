@@ -12,23 +12,27 @@ type GridItemType = {
 export function GridItem(props: GridItemType) {
   const { increaseCartQuantity } = useAppContext();
 
+  function showAddBtn() {
+    console.log("enter");
+  }
+
   return (
     <div className="grid-item">
-      <img src={`images//${props.image}.png`} alt="" />
+      <img src={`images//${props.image}.png`} alt="" onMouseOver={showAddBtn} />
       <div className="name">
         <h4>{props.name}</h4>
       </div>
       <div className="center-between type-price">
         <p>{props.type}</p>
 
-        <button
-          className="pointer add-btn"
-          onClick={() => increaseCartQuantity(props.id)}
-        >
-          Add
-        </button>
         <h4>${props.price.toFixed(2)}</h4>
       </div>
+      <button
+        className="pointer add-btn"
+        onClick={() => increaseCartQuantity(props.id)}
+      >
+        Add To Cart
+      </button>
     </div>
   );
 }
