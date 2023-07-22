@@ -1,0 +1,58 @@
+{
+  "Clothing & Shoes": [
+    {
+      "name": "Adicolor Classics Joggers",
+      "type": "Dress",
+      "price": 63.85,
+      "image": 15
+    },
+    {
+      "name": "Nike Sportswear Futura Luxe",
+      "type": "Bag",
+      "price": 130,
+      "image": 14
+    },
+    {
+      "name": "Geometric Print Scarf",
+      "type": "Scarf",
+      "price": 53,
+      "image": 13
+    },
+    {
+      "name": "Yellow Reserved Hoodie",
+      "type": "Dress",
+      "price": 155,
+      "image": 4
+    },
+    {
+      "name": "Basic Dress Green",
+      "type": "Dress",
+      "price": 236,
+      "image": 11
+    },
+    {
+      "name": "Nike Air Zoom Pegasus",
+      "type": "Shoe",
+      "price": 198,
+      "image": 12
+    },
+    {
+      "name": "Nike Repel Miler",
+      "type": "Dress",
+      "price": 120.5,
+      "image": 17
+    },
+    {
+      "name": "Nike Sportswear Futura Glasses",
+      "type": "Glasses",
+      "price": 160,
+      "image": 16
+    }
+  ],
+  "Jewelry & Accessories": [],
+  "Home & Living": [],
+  "Wedding & Party": [],
+  "Toys & Entertainment": [],
+  "Art & Collectibles": [],
+  "Craft Supplies & Tools": []
+}

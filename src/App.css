@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.center-around {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.li-menu-black {
+  list-style-type: none;
+  color: black;
+}

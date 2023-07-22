@@ -1,0 +1,18 @@
+.grid-item {
+  display: inline;
+  float: left;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: 310px;
+}
+
+.add-btn {
+  border: 1px solid black;
+}
+
+.add-btn:hover {
+  background-color: black;
+  color: white;
+}
